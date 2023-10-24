@@ -49,11 +49,8 @@
     const API = 'https://dev-cabinet.seenday.com/e.scripts?page=pages:unload&event=get'
     
     const unloadData = computed(() => {
-        
         const response = JSON.parse(res.value)
-        console.log(response)
         return response.response
-
     })
 
     watch(itemCheckedId, async (newItem) => {
@@ -71,7 +68,6 @@
             }
             let {data: response } =  await useAPIFetch(API, options);
             response = JSON.parse(response.value);
-            console.log(response.response.data[0].id)
             itemChecked.value = response.response.data[0];
         }
         catch (e) {
