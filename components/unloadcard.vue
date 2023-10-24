@@ -20,7 +20,6 @@
     const event = computed(() => {
         const text = props.item.event.replace(/(<([^>]+)>)/gi, '');
         const index = text.lastIndexOf('№');
-        console.log(text, index)
         return text.slice(index);
     })
     const status = computed(() => {
