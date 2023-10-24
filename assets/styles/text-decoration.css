@@ -1,0 +1,35 @@
+.text,
+.text-bold {
+  display: inline;
+}
+
+.text[data-color="light-purple"],
+.text-bold[data-color="light-purple"] {
+  color: var(--color_secondary);
+}
+
+.text[data-color="green"],
+.text-bold[data-color="green"] {
+  color: var(--color_green);
+}
+
+.text[data-color="red"],
+.text-bold[data-color="red"] {
+  color: var(--color_red);
+}
+
+.text[data-color="orange"],
+.text-bold[data-color="orange"] {
+  color: var(--color_orange);
+}
+
+.text[data-color="blue"],
+.text-bold[data-color="blue"] {
+  color: var(--color_blue);
+}
+
+.text[data-color="light-blue"],
+.text-bold[data-color="light-blue"] {
+  color: var(--color_light_blue);
+}
+/*# sourceMappingURL=text-decoration.css.map */

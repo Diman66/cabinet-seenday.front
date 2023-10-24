@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,WAAW,EAAE,MAAM;CACpB;;AAED,AAAA,OAAO,CAAC;EACN,WAAW,EAAE,MAAM;CACpB",
+    "sources": [
+        "nobr.scss"
+    ],
+    "names": [],
+    "file": "nobr.css"
+}
